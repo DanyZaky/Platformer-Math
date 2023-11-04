@@ -41,7 +41,8 @@ public class EnemyAI : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             soalPanel.SetActive(true);
-            Destroy(gameObject, 1f);
+            Destroy(gameObject);
+            Time.timeScale = 0f;
         }
     }
 }

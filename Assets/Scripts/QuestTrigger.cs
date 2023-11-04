@@ -7,12 +7,11 @@ public class QuestTrigger : MonoBehaviour
     public GameObject thisPlatform;
     public GameObject reward;
     public GameObject soalObject;
-    public Color colorDisabled;
-    public Color colorEnabled;
+    public Sprite spriteDisabled, spriteEnabled;
     public Transform spawnReward;
     void Start()
     {
-        thisPlatform.GetComponent<SpriteRenderer>().color = colorEnabled;
+        thisPlatform.GetComponent<SpriteRenderer>().sprite = spriteEnabled;
     }
 
     void Update()
@@ -24,7 +23,7 @@ public class QuestTrigger : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            thisPlatform.GetComponent<SpriteRenderer>().color = colorDisabled;
+            thisPlatform.GetComponent<SpriteRenderer>().sprite = spriteDisabled;
             gameObject.GetComponent<BoxCollider2D>().isTrigger = false;
             GameObject rewardObj = Instantiate(reward, spawnReward);
             rewardObj.GetComponent<EnemyAI>().soalPanel = soalObject;

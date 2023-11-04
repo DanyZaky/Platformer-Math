@@ -491,7 +491,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7629697287053374478}
   - component: {fileID: 4691353438422400497}
-  - component: {fileID: 2420285693977951226}
   m_Layer: 0
   m_Name: Spite
   m_TagString: Untagged
@@ -507,8 +506,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3528958768388946873}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0386, y: 0.0017, z: 0}
-  m_LocalScale: {x: 4.825997, y: 4.8965836, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.1, y: 2.1, z: 0.3758}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 87970535765219925}
@@ -555,7 +554,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 109722232, guid: a28a72902de1817419c67675b7b746f5, type: 3}
+  m_Sprite: {fileID: 118178703, guid: 11f9371b661618f4fbbac410ad8bf8ed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -566,27 +565,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &2420285693977951226
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3528958768388946873}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 288c5cb907a4dd04ea1307ef1d02566e, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &3870503198333288979
 GameObject:
   m_ObjectHideFlags: 0
@@ -660,6 +638,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thisPlatform: {fileID: 3528958768388946873}
   reward: {fileID: 1680989628060904363, guid: 81e6928eb4604bd4fb93fe351b7d8850, type: 3}
-  colorDisabled: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
-  colorEnabled: {r: 1, g: 1, b: 1, a: 1}
+  soalObject: {fileID: 0}
+  spriteDisabled: {fileID: 742140921, guid: 11f9371b661618f4fbbac410ad8bf8ed, type: 3}
+  spriteEnabled: {fileID: 118178703, guid: 11f9371b661618f4fbbac410ad8bf8ed, type: 3}
   spawnReward: {fileID: 7867629645654666277}

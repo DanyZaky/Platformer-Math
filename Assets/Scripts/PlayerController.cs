@@ -9,11 +9,15 @@ public class PlayerController : MonoBehaviour
     public float jumpForce = 10f;
     private bool isJumping = false;
 
+    public bool isMoving = false;
+    public bool isLeft;
+
     private Rigidbody2D rb;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        isMoving = false;
     }
 
     void Update()
@@ -36,7 +40,7 @@ public class PlayerController : MonoBehaviour
         {
             gameObject.GetComponent<SpriteRenderer>().flipX = false;
         }
-        
+        /*
         if(!isJumping)
         {
             if (moveInput == 0)
@@ -51,7 +55,40 @@ public class PlayerController : MonoBehaviour
         else
         {
             anim.Play("Jump");
+        }*/
+
+        if(isMoving)
+        {
+            if(isLeft)
+            {
+                MoveLeft();
+                if(!isJumping)
+                {
+                    anim.Play("Run");
+                }
+            }
+            else
+            {
+                MoveRight();
+                if (!isJumping)
+                {
+                    anim.Play("Run");
+                }
+            }
         }
+        else
+        {
+            if(!isJumping)
+            {
+                anim.Play("Idle");
+            }
+        }
+
+        if(isJumping)
+        {
+            anim.Play("Jump");
+        }
+        
         
     }
 
@@ -61,5 +98,28 @@ public class PlayerController : MonoBehaviour
         {
             isJumping = false; 
         }
+    }
+
+    public void Jump()
+    {
+        if (!isJumping)
+        {
+            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            isJumping = true;
+        }
+    }
+
+    public void MoveLeft()
+    {
+        rb.velocity = new Vector2(-1 * moveSpeed, rb.velocity.y);
+        Debug.Log("kiri");
+        gameObject.GetComponent<SpriteRenderer>().flipX = true;
+    }
+
+    public void MoveRight()
+    {
+        rb.velocity = new Vector2(1 * moveSpeed, rb.velocity.y);
+        Debug.Log("kanan");
+        gameObject.GetComponent<SpriteRenderer>().flipX = false;
     }
 }
