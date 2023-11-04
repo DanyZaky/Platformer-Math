@@ -146,4 +146,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3992a8ae2266d7047aed53565b02c2d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SoalNomor: 1
   moveSpeed: 6

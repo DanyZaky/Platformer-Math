@@ -6,6 +6,7 @@ public class QuestTrigger : MonoBehaviour
 {
     public GameObject thisPlatform;
     public GameObject reward;
+    public GameObject soalObject;
     public Color colorDisabled;
     public Color colorEnabled;
     public Transform spawnReward;
@@ -25,7 +26,8 @@ public class QuestTrigger : MonoBehaviour
         {
             thisPlatform.GetComponent<SpriteRenderer>().color = colorDisabled;
             gameObject.GetComponent<BoxCollider2D>().isTrigger = false;
-            Instantiate(reward, spawnReward);
+            GameObject rewardObj = Instantiate(reward, spawnReward);
+            rewardObj.GetComponent<EnemyAI>().soalPanel = soalObject;
         }
     }
 }
