@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: 6302d7522837aa146854e7341f91d7f0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tak_berjudul23_20231119194637-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 597
+        width: 77
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a47bec9ed348d46b9610c0e30a4524
+      internalID: -408723555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak_berjudul23_20231119194637-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 596
+        width: 84
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e5c6e3cc7832d47bf0563c9b4735c9
+      internalID: 1553236661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak_berjudul23_20231119194637-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 549
+        width: 74
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a51e0ffb3ab6b45b4a8b1b7fd22567
+      internalID: 1925338219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak_berjudul23_20231119194637-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 541
+        width: 84
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e83e50b8da351147864d534b4f671b9
+      internalID: 1867609760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak_berjudul23_20231119194637-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 492
+        width: 73
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35caec23b7efc7644b9dbeb225a89788
+      internalID: 1455939738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak_berjudul23_20231119194637-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 468
+        width: 130
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fbda86be772e2d459a80aa3c796ad40
+      internalID: -1421430419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak_berjudul23_20231119194637-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 426
+        width: 151
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4267926c8a962b34190d7b17665933cf
+      internalID: -70420513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak_berjudul23_20231119194637-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 353
+        width: 300
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0e864bced447f41913e0ce834a19ff
+      internalID: -2096735528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak_berjudul23_20231119194637-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 484
+        width: 88
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b500b6128c69e6f4fb444682f86e7611
+      internalID: 1965651531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak_berjudul23_20231119194637-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 529
+        width: 107
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff16a91f289aad5468bd3e0e8754b5c2
+      internalID: 544363783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tak_berjudul23_20231119194637-removebg-preview_0: 544363783
+      Tak_berjudul23_20231119194637-removebg-preview_1: -408723555
+      Tak_berjudul23_20231119194637-removebg-preview_10: 1867609760
+      Tak_berjudul23_20231119194637-removebg-preview_11: -1188888731
+      Tak_berjudul23_20231119194637-removebg-preview_12: 410365693
+      Tak_berjudul23_20231119194637-removebg-preview_13: 1743747398
+      Tak_berjudul23_20231119194637-removebg-preview_14: 1705428991
+      Tak_berjudul23_20231119194637-removebg-preview_15: 2097313117
+      Tak_berjudul23_20231119194637-removebg-preview_16: -730852463
+      Tak_berjudul23_20231119194637-removebg-preview_17: 171840637
+      Tak_berjudul23_20231119194637-removebg-preview_18: -1989251358
+      Tak_berjudul23_20231119194637-removebg-preview_19: 1455939738
+      Tak_berjudul23_20231119194637-removebg-preview_2: 1965651531
+      Tak_berjudul23_20231119194637-removebg-preview_20: 767296825
+      Tak_berjudul23_20231119194637-removebg-preview_21: -1360934865
+      Tak_berjudul23_20231119194637-removebg-preview_22: -1421430419
+      Tak_berjudul23_20231119194637-removebg-preview_23: -70420513
+      Tak_berjudul23_20231119194637-removebg-preview_24: -505401504
+      Tak_berjudul23_20231119194637-removebg-preview_25: -1018791554
+      Tak_berjudul23_20231119194637-removebg-preview_26: -2005506548
+      Tak_berjudul23_20231119194637-removebg-preview_27: -83804947
+      Tak_berjudul23_20231119194637-removebg-preview_28: -2096735528
+      Tak_berjudul23_20231119194637-removebg-preview_29: 582892057
+      Tak_berjudul23_20231119194637-removebg-preview_3: -839854506
+      Tak_berjudul23_20231119194637-removebg-preview_30: -1791590004
+      Tak_berjudul23_20231119194637-removebg-preview_31: -1032675149
+      Tak_berjudul23_20231119194637-removebg-preview_32: -472854490
+      Tak_berjudul23_20231119194637-removebg-preview_4: 1553236661
+      Tak_berjudul23_20231119194637-removebg-preview_5: 624547031
+      Tak_berjudul23_20231119194637-removebg-preview_6: 1539421372
+      Tak_berjudul23_20231119194637-removebg-preview_7: 1565006075
+      Tak_berjudul23_20231119194637-removebg-preview_8: 1922266403
+      Tak_berjudul23_20231119194637-removebg-preview_9: 1925338219
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
